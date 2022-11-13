@@ -1,8 +1,8 @@
 function HeroSection() {
   return (
     <section className="px-3 lg:col-span-2 lg:row-span-2 lg:h-full">
-      <img src="/assets/image-web-3-mobile.jpg" className="mb-4 w-full object-cover lg:hidden" />
-      <img src="/assets/image-web-3-desktop.jpg" className="mb-4 w-full hidden object-cover lg:block lg:h-1/2" />
+      <img src="./assets/image-web-3-mobile.jpg" className="mb-4 w-full object-cover lg:hidden" />
+      <img src="./assets/image-web-3-desktop.jpg" className="mb-4 w-full hidden object-cover lg:block lg:h-1/2" />
       <div className="lg:flex lg:h-1/2">
         <h1 className="text-4xl font-extrabold pr-5 mb-4 lg:w-1/2 lg:text-6xl">The Bright Future of Web 3.0?</h1>
         <div className="lg:w-1/2 lg:pl-[11px]">

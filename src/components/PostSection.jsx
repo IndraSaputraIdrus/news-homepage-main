@@ -6,19 +6,19 @@ function PostSection() {
       id: "01",
       title: "Reviving Retro Pcs",
       excerpt: "What happens when old PCs are given modern upgarades?",
-      cover: "/assets/image-retro-pcs.jpg",
+      cover: "./assets/image-retro-pcs.jpg",
     },
     {
       id: "02",
       title: "Top 10 Laptops of 2022",
       excerpt: "Our best picks for various needs and budgets.",
-      cover: "/assets/image-top-laptops.jpg",
+      cover: "./assets/image-top-laptops.jpg",
     },
     {
       id: "03",
       title: "The Growth of Gaming",
       excerpt: "How the pandemic has sparked fresh opportunities",
-      cover: "/assets/image-gaming-growth.jpg",
+      cover: "./assets/image-gaming-growth.jpg",
     },
   ];
   return (
