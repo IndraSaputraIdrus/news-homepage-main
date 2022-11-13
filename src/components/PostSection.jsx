@@ -22,9 +22,9 @@ function PostSection() {
     },
   ];
   return (
-    <section className="px-3 flex flex-col gap-5">
+    <section className="px-3 flex flex-col w-full gap-5 lg:col-span-3 lg:flex-row lg:items-center lg:pt-10">
       {Posts.map((post) => (
-        <div key={Posts.id}>
+        <div key={post.id} className="lg:w-4/12">
           <Post {...post} />
         </div>
       ))}
